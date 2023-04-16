@@ -43,6 +43,7 @@ public class ResolutionScaler : MonoBehaviour
     private void OnPostRender()
     {
         cameraComponent.targetTexture = null;
+        
     }
 
     void OnRenderImage(RenderTexture src, RenderTexture dest)
